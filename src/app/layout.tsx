@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar1 } from "@/components/common/navbar";
 import Footer from "@/components/common/footer";
+import NextTopLoader from "nextjs-toploader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,7 +38,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar1 />
-          <main className="">{children}</main>
+          <main className="">
+            <NextTopLoader height={5} />
+            {children}
+          </main>
           <Footer />
         </ThemeProvider>
       </body>
