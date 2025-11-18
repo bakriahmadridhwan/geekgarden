@@ -5,7 +5,7 @@ import { Contact7 } from "@/components/common/recent-posts";
 export default function Home() {
   return (
     <div>
-      <section className="container mx-auto">
+      <section className="">
         <Hero1 />
       </section>
       <section className="">

@@ -46,7 +46,7 @@ const Hero1 = ({
   },
 }: Hero1Props) => {
   return (
-    <section className="lg:py-20 py-12 px-6 xl:px-0 2xl:px-40">
+    <section className="lg:py-20 py-12 px-6 xl:px-0 2xl:px-40 container mx-auto">
       <div className="container">
         <div className="grid items-center justify-items-center gap-8 lg:grid-cols-2">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left order-2 lg:order-1">
